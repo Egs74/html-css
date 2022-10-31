@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Times New Roman', Times, serif
+}
+
+@font-face {
+    font-family: Egson ;
+    src: url("fontes/idroid.otf");
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+  }
+
+header {
+    background-image: linear-gradient(to left, #004D30, #B5E6D4,#00CC81, #1B523E, #009961);
+    height: 150px;
+    margin-top: -15px;
+    margin-right: -9px;
+    margin-bottom: 0px;
+    margin-left: -9px;
+    
+
+   
+    
+}
+ h1 {
+    /* height: 70px; */
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    padding-bottom: 0;
+    color: white;
+    
+    /* box-shadow: inset 0px -1px 3px 2px white;
+
+    
+    width: 150px;
+    text-align: center;
+    margin: auto; */
+   
+ }
+nav {
+
+    /* background-color: rgb(102, 102, 102);
+    padding: 3px;
+    box-shadow: 5px 3px 7px 1px black; */
+    padding: 34px;
+}
+
+nav > a {
+   
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: -10px;
+    
+}
+
+nav > a:hover {
+    /* text-decoration: underline; */
+    box-shadow: 5px 3px 7px 1px black;
+}
+
+body {
+    background-color: rgb(148, 225, 148);
+    /* background-image: linear-gradient(to left, #BDC0B9, #F29F05); */
+}
+
+main {
+
+     background-color: white;
+     box-shadow: 10x 10px 15px black;
+     border-radius: 11px;
+     width: 900px;
+     height:1650px;
+     padding: 30px;
+     margin-left: 192px;
+     
+
+}
+
+h2 {
+    /* height: 80px; */
+    
+    color: white;
+    width: 400px;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    margin: auto;
+    
+}
+
+h3 {
+    /* height: 80px; */
+    
+    /* color: white;
+    width: 400px;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    margin: auto; */
+    font-family: Egson, sans-serif;
+}
+
+h4 {
+    /* height: 80px; */
+    
+    /* color: white;
+    width: 400px;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    margin: auto; */
+    background-image: linear-gradient(to left, #004d2f87, #B5E6D4,#00CC81, #1b523e38, #009961);
+    font-family: Egson, sans-serif;
+    color: rgb(8, 94, 8);
+}
+
+#im {
+    display:flex;
+    justify-content: center;
+}
+#ima {
+    display:flex;
+    /* justify-content: center; */
+}
+#videos {
+    background-color: rgb(16, 16, 16);
+    margin-top: 10px;
+}
+
+#fim {
+
+}
+footer {
+   color:white;
+   background-color: rgb(6, 182, 115);
+   text-align: left;
+   
+}
+
+p {
+
+   margin-top: ;
+   text-indent: 30px;
+   text-align: justify;
+}
