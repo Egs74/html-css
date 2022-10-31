@@ -1,0 +1,101 @@
+{
+	"folders": [
+		{
+			"path": "../../desafio10"
+		},
+		{
+			"path": "../../ex01"
+		},
+		{
+			"path": "../../ex02"
+		},
+		{
+			"path": "../../ex03"
+		},
+		{
+			"path": "../../ex04"
+		},
+		{
+			"path": "../../ex05"
+		},
+		{
+			"path": "../../ex06"
+		},
+		{
+			"path": "../../../moduloI/Desafio01"
+		},
+		{
+			"path": "../../../moduloI/Desafio02"
+		},
+		{
+			"path": "../../../moduloI/Desafio04"
+		},
+		{
+			"path": "../../../moduloI/Desafio05"
+		},
+		{
+			"path": "../../../moduloI/Desafio06"
+		},
+		{
+			"path": "../../../moduloI/desafio07"
+		},
+		{
+			"path": "../../../moduloI/desafio08"
+		},
+		{
+			"path": "../../../moduloI/Desafio09"
+		},
+		{
+			"path": "../../../moduloI/ex001"
+		},
+		{
+			"path": "../../../moduloI/ex002"
+		},
+		{
+			"path": "../../../moduloI/ex003"
+		},
+		{
+			"path": "../../../moduloI/ex004"
+		},
+		{
+			"path": "../../../moduloI/ex005"
+		},
+		{
+			"path": "../../../moduloI/ex006"
+		},
+		{
+			"path": "../../../moduloI/ex007"
+		},
+		{
+			"path": "../../../moduloI/ex008"
+		},
+		{
+			"path": "../../../moduloI/ex008b"
+		},
+		{
+			"path": "../../../moduloI/ex009"
+		},
+		{
+			"path": "../../../moduloI/ex010"
+		},
+		{
+			"path": "../../../moduloI/ex011"
+		},
+		{
+			"path": "../../../moduloI/ex012"
+		},
+		{
+			"path": "../../../moduloI/ex013"
+		},
+		{
+			"path": "../../../moduloI/ex014"
+		},
+		{
+			"path": "../../../moduloI/ex015"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
