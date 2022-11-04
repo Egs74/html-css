@@ -39,3 +39,21 @@ iframe {
     height: 471px;
 }
 
+#rede-sociais > a > img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.500);
+    box-sizing: border-box; /*faz os icones nao inteferir um nos outros */
+
+}
+
+#rede-sociais {
+    text-align: right;
+}
+#rede-sociais > a > img:hover {
+    border:2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.502);
+    transition: transform .5s, border 0.5s;
+}
