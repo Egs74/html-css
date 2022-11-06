@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* Versão mobile First */
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+
+    /* Foi tirado o body ao lado do html. 
+    Quando ele especifica HTML com 100vh (altura total do dispositivo) ele faz isso para a página como um todo. Assim todos os elementos ganham o espaço da altura total do dispositivo. O body, por outro lado é filho de HTML e, portanto, possuí um tamanho menor, pois está dentro da caixa HTML (aninhamento). É por isso que aparece a barra de rolagem, porque o tamanho de body não é o suficiente para mostrar o conteúdo completo em uma tela menor.
+    Em telas de tamanho ainda menores a barra de rolagem irá aparecer, o HTML agora não possuí espaço suficiente. */
+    /* width: 100vw; */
+    height: 100vh;
+}
+
+body {
+    background: black url(../imagens/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.692);
+    /* width: 90vw;  o tamanha vai ficar flexivel a medida que aumenta*/
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+main > h1 { text-align: center;
+color: wheat;
+text-shadow: 2px 2px 2px black;
+font-size: 2em;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+}
+img#phone { display: block;}
+img#tablet { display: none;}
+img#print { display: none;}
+img#pc { display: none;}
+img#tv { display: none;}
