@@ -36,7 +36,7 @@ menu > ul {
 
 
 menu > ul > li > a {
-    width: 100px;
+   
     display:block;
     padding: 10px;
     text-decoration: none;
@@ -44,7 +44,7 @@ menu > ul > li > a {
     background-color: rgb(87, 87,87);
     color: white;
     border-top: 2px solid gray;
-    margin-left: 186px;
+   
    
 }
 
