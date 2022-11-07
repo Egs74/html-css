@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+@media print {
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+main {
+    width: 90vw;
+    border: 2px solid black;
+}
+
+main::after {
+    content: 'Essa impressão foi feita atrav´s do site www.cursoemvideo.com';
+    text-decoration: overline;
+}
+
+main h1 {
+    text-shadow: none;
+    color:black;
+}
+
+}
+
+@media screen and (min-width:768px) {
+  #burguer {
+    display: none;
+  }  
+  menu {
+    display: block;
+}
+  menu > ul > li {
+    display: inline-block;
+  }
+
+main {
+    width: 786px;
+}
+}
