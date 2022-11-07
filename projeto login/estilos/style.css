@@ -133,7 +133,7 @@ form > a:hover {
     border-radius: 8px; 
     padding: 4px;
     border: 0px;
-    transform: translateY(-13px); 
+    transform: translateY(-14px); 
 }
 
 #campo > input:focus-within {
